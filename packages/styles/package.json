@@ -1,0 +1,33 @@
+{
+  "name": "@exercising/styles",
+  "version": "1.0.0",
+  "description": "SCSS variables and utilities",
+  "keywords": [
+    "scss"
+  ],
+  "homepage": "http://github.com/exercising/lerna-es",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "David Silva <@dvidsilva>",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exercising/lerna-es"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "mkdir -p dist && cp lib/* dist/ && cp src/index.js dist"
+  },
+  "bugs": {
+    "url": "https://github.com/exercising/lerna-es/issues"
+  }
+}
